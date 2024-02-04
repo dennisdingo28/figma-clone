@@ -1,5 +1,10 @@
+import { Live } from "@/components/Live";
+
 export default function Page() {
   return (
-    <h1 className="text-5xl text-white">test</h1>
+    <div>
+      <h1 className="text-2xl text-white">test</h1>
+      <Live/>
+    </div>
   );
 }
